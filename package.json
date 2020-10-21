@@ -1,0 +1,37 @@
+{
+  "name": "@thtliife/repo-config",
+  "version": "1.0.0",
+  "description": "Configure a git repository to enforce conventional commit messages",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node ./scripts/postinstall.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thtliife/repo-config.git"
+  },
+  "keywords": [
+    "git",
+    "commit",
+    "lint",
+    "repository"
+  ],
+  "author": "thtliife",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thtliife/repo-config/issues"
+  },
+  "homepage": "https://github.com/thtliife/repo-config#readme",
+  "dependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "commitiquette": "^1.0.8",
+    "commitizen": "^4.2.2",
+    "cross-spawn": "^7.0.3"
+  },
+  "devDependencies": {
+    "@thtliife/eslint-config": "^1.0.14"
+  }
+}
