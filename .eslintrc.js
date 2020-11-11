@@ -1,3 +1,1 @@
-module.exports = {
-  extends: ['@thtliife']
-};
+module.exports = { extends: ['@thtliife'] };

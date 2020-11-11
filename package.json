@@ -1,11 +1,10 @@
 {
   "name": "@thtliife/repo-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Configure a git repository to enforce conventional commit messages",
   "main": "index.js",
   "scripts": {
     "postinstall": "node ./scripts/postinstall.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "commit": "cz"
   },
   "repository": {
@@ -24,14 +23,35 @@
     "url": "https://github.com/thtliife/repo-config/issues"
   },
   "homepage": "https://github.com/thtliife/repo-config#readme",
-  "dependencies": {
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/eslint-parser": "^7.12.1",
+    "@babel/eslint-plugin": "^7.12.1",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-proposal-private-methods": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.5",
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
+    "@thtliife/eslint-config": "^1.0.17",
     "commitiquette": "^1.0.8",
     "commitizen": "^4.2.2",
-    "cross-spawn": "^7.0.3"
+    "cross-spawn": "^7.0.3",
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.1.2"
   },
-  "devDependencies": {
-    "@thtliife/eslint-config": "^1.0.14"
+  "peerDependencies": {
+    "@commitlint/cli": "11.x",
+    "@commitlint/config-conventional": "11.x",
+    "commitiquette": "1.x",
+    "commitizen": "4.x",
+    "cross-spawn": "7.x"
   }
 }
