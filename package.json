@@ -1,6 +1,6 @@
 {
   "name": "@thtliife/repo-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Configure a git repository to enforce conventional commit messages",
   "main": "index.js",
   "scripts": {
@@ -36,7 +36,6 @@
     "@thtliife/eslint-config": "^1.0.17",
     "commitiquette": "^1.0.8",
     "commitizen": "^4.2.2",
-    "cross-spawn": "^7.0.3",
     "eslint": "^7.13.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^6.15.0",
