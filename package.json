@@ -1,6 +1,6 @@
 {
   "name": "@thtliife/repo-config",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Configure a git repository to enforce conventional commit messages",
   "main": "index.js",
   "scripts": {

@@ -20,8 +20,8 @@ If you still want to continue, install by simply running the following in a new 
 # Initialise a new project (Optional)
 pnpm init -y
 
-# Install Peer Dependencies:
-pnpm add --save-dev @commitlint/cli @commitlint/config-conventional commitiquette commitizen
+# Install Peer dependencies:
+pnpx install-peerdeps --dev @thtliife/repo-config
 
 # Install repo-config
 pnpm add --save-dev @thtliife/repo-config
