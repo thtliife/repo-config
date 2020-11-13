@@ -21,7 +21,7 @@ If you still want to continue, install by simply running the following in a new 
 pnpm init -y
 
 # Install Peer Dependencies:
-pnpm add --save-dev @commitlint/cli @commitlint/config-conventional commitiquette commitizen cross-spawn
+pnpm add --save-dev @commitlint/cli @commitlint/config-conventional commitiquette commitizen
 
 # Install repo-config
 pnpm add --save-dev @thtliife/repo-config
