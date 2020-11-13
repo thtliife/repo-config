@@ -1,6 +1,6 @@
 {
   "name": "@thtliife/repo-config",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Configure a git repository to enforce conventional commit messages",
   "main": "index.js",
   "scripts": {
@@ -33,7 +33,7 @@
     "@babel/preset-react": "^7.12.5",
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
-    "@thtliife/eslint-config": "^1.0.17",
+    "@thtliife/eslint-config": "^1.0.19",
     "commitiquette": "^1.0.8",
     "commitizen": "^4.2.2",
     "eslint": "^7.13.0",
