@@ -50,7 +50,6 @@
     "@commitlint/cli": "11.x",
     "@commitlint/config-conventional": "11.x",
     "commitiquette": "1.x",
-    "commitizen": "4.x",
-    "cross-spawn": "7.x"
+    "commitizen": "4.x"
   }
 }

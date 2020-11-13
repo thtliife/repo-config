@@ -11,7 +11,6 @@ devDependencies:
   '@thtliife/eslint-config': 1.0.17_2dc1f955f8b25828613b65881fc0355f
   commitiquette: 1.0.8_afc8d047de440c3eb7ecb998406a74b0
   commitizen: 4.2.2
-  cross-spawn: 7.0.3
   eslint: 7.13.0
   eslint-config-airbnb: 18.2.1_559cfe39880d0fbaea7606f9ad99374d
   eslint-config-prettier: 6.15.0_eslint@7.13.0
@@ -4879,7 +4878,6 @@ specifiers:
   '@thtliife/eslint-config': ^1.0.17
   commitiquette: ^1.0.8
   commitizen: ^4.2.2
-  cross-spawn: ^7.0.3
   eslint: ^7.13.0
   eslint-config-airbnb: ^18.2.1
   eslint-config-prettier: ^6.15.0
