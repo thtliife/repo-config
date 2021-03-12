@@ -1,11 +1,12 @@
 {
   "name": "@thtliife/repo-config",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Configure a git repository to enforce conventional commit messages",
   "main": "index.js",
   "scripts": {
     "postinstall": "node ./scripts/postinstall.js",
-    "commit": "cz"
+    "commit": "cz",
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
